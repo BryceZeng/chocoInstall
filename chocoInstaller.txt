@@ -1,0 +1,78 @@
+#install chocolatey
+# Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin" 
+
+# browsers
+choco install -y googlechrome
+
+# office
+choco install drawio -y
+
+# utils
+choco install -y 7zip.install
+choco install -y greenshot
+choco install -y chocolateygui
+choco install -y powertoys
+choco install -y vlc
+obs-studio.install
+
+# Development
+choco install -y git.install
+choco install -y nodejs.install
+choco install -y firacode 
+choco install -y postman
+choco install -y git-fork
+choco install -y sql-server-management-studio
+choco install -y sqlserver-odbcdriver
+choco install -y azure-pipelines-agent
+choco install -y azure-cli
+choco install -y postman 
+choco install -y nvm
+choco install -y kubernetes-cli
+choco install -y pip 
+choco install -y docker-cli
+choco install -y javaruntime
+choco install -y jre8
+choco install -y openssl
+choco install -y selenium-chrome-driver
+
+# code
+choco install -y python3
+choco install -y r.studio
+choco install -y r.project
+choco install -y rtools 
+
+## vscode
+choco install -y vscode
+
+## visual studio 2023 community
+choco install -y visualstudio2022professional
+choco install -y visualstudio2023community 
+
+### visual studio 2023 workloads
+choco install visualstudio2023-workload-azure
+choco install visualstudio2023-workload-node
+
+# containers
+choco install -y docker-desktop
+choco install -y docker-kitematic
+
+## scala 
+choco install jdk8
+choco install intellijidea-community
+
+# java
+choco install -y jdk8 -params 'installdir=c:\\tools\\java8'
+choco install -y intellijidea-community
+
+# db
+choco install filezilla -y
+choco install -y mysql.workbench
+
+# torrent
+choco install -y qbittorrent
+
+# choco
+choco install -y choco-upgrade-all-at
+choco install -y choco-cleaner
+choco upgrade chocolatey 
