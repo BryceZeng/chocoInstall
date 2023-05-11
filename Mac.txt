@@ -1,3 +1,18 @@
+#generate your key
+ssh-keygen -t ed25519 -C "your_email@example.com"
+Users/bryce_zeng/.ssh/id_ed25519
+# if no ssh folder
+mkdir ~/.ssh
+
+#Visualize your keys
+#ls ~/.ssh
+#id_rsa id_rsa.pub
+#Start the agent
+eval `ssh-agent`
+#Add your key to the agent
+ssh-add ~/.ssh/id_github
+
+
 
 sudo pip install virtualenv
 virtualenv venv
