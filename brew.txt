@@ -1,0 +1,49 @@
+brew update
+
+## Editor
+brew install --cask visual-studio-code
+brew install --cask google-chrome
+brew install --cask visual-studio
+brew install --cask obsidian
+brew tap lukakerr/things
+brew install pine
+
+## Database
+brew cask install redis-app
+brew install --cask redisinsight
+
+## Finder
+brew install --cask raycast
+
+## Dev Tools
+brew install git
+brew install --cask docker
+brew install --cask chromedriver
+brew install --cask postman
+brew install pyenv
+brew install node
+brew cask install ndm
+brew install fontconfig
+
+
+## Utils
+brew install meetingbar
+brew install --cask yt-music
+brew install --cask betterdisplay
+brew install --cask nordvpn
+brew install --cask linearmouse
+brew install --cask cakebrew
+brew install --cask hiddenbar
+brew install --cask qbittorrent
+brew install --cask flameshot
+brew install --cask obs
+brew install --cask obsidian
+brew install --cask zoom
+brew install --cask vlc
+brew install --cask rectangle
+brew install --cask veracrypt
+brew install --cask clean-me
+
+## Games
+brew install --cask epic-games
+
