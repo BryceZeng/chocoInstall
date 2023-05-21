@@ -41,9 +41,4 @@ brew install --cask obsidian
 brew install --cask zoom
 brew install --cask vlc
 brew install --cask rectangle
-brew install --cask veracrypt
-brew install --cask clean-me
-
-## Games
-brew install --cask epic-games
-
+brew install --cask veracrypt 
