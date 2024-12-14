@@ -1,4 +1,5 @@
 brew update
+brew upgrade --cask $(brew list --cask)
 
 ## Editor
 brew install --cask visual-studio-code
