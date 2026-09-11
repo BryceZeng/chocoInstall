@@ -1,6 +1,8 @@
 brew update
 brew upgrade --cask $(brew list --cask)
 
+brew install uv ruff duckdb direnv fzf ripgrep fd bat eza zoxide git-delta
+
 ## Editor
 brew install --cask visual-studio-code
 brew install --cask google-chrome
