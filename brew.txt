@@ -8,6 +8,7 @@ brew install --cask visual-studio
 brew install --cask obsidian
 brew tap lukakerr/things
 brew install pine
+brew install eza
 
 ## Database
 brew cask install redis-app
